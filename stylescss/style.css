@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Vag;
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/VAG World Bold.ttf");
+}
+
+.head0{
+    background-image: url("../svg/ФонХэдера.svg");
+    height: 133px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #4f0a4f;
+    transform: scale(1.15);
+}
+
+.zagolov_text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Vag;
+}
+
+.comment_text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Vag;
+}
+
+.spacer30{
+    height: 30px;
+}
+
+.spacer15{
+    height: 15px;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    background-color: #F5E8FA;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.commentcard{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: auto;
+    width: 620px;
+    background-color: #E8AFDB;
+    overflow: hidden;
+    box-shadow: 7px 7px black;
+}
+
+.comment_vnytri{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    text-align: left;
+}
+
+.commentcard_yellow{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: auto;
+    width: 950px;
+    background-color: #FFF6C2;
+    overflow: hidden;
+    box-shadow: 7px 7px black;
+}
+
+.card_little{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: auto;
+    width: 620px;
+    background-color: #FFF6C2;
+    overflow: hidden;
+    box-shadow: 7px 7px black;
+}
+
+.comment_little_vnytri{
+    margin: 20px;
+
+    border: 2px solid black;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    text-align: left;
+}
